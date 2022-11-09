@@ -1,0 +1,65 @@
+.offer_section .box .detail-box h6 {font-family: Verdana, Tahoma, sans-serif;}
+
+.bg-box .carousel.pointer-event,
+.bg-box .carousel-inner,
+.bg-box .carousel-item {height: 100%}
+.bg-box .carousel {width:100%; height:100%;}
+.header_section {position: relative;}
+.header_section:before {content:''; position: absolute; top:0; display: block; width:100%; height: 88px; background: #222830}
+.faq_section .heading_container {padding-bottom: 45px;}
+
+.accordion > .card {border-radius: 20px;background: #222830;margin-bottom: 16px;}
+.accordion > .card .card-body {position: relative;margin: 0 22px 20px; padding-left: 62px; background: rgba(247, 245, 245, 0.9); border-radius: 20px; color: #0C0C0C; }
+.accordion > .card .card-body .faq_atxt {position: absolute;top:10px; left:30px;padding-right: 10px; font-family: 'Dancing Script', cursive; font-size: 30px;}
+.accordion > .card .btn-link .faq_qtxt {position: absolute; top:-12px; left: 10px;font-family: 'Dancing Script', cursive; font-size: 30px; font-weight: bold; color: #FECD03}
+.accordion .btn-link {position: relative;}
+.accordion .btn-link:before {content:'';position: absolute; top:8px; right: 10px; display: block; width:14px; height:10px; background: url("../images/faq_arrorw.png") 0 0 no-repeat;transform: rotate(180deg); transition: all 0.3s ease}
+.accordion .btn-link.collapsed:before {transform: rotate(0deg); transition: all 0.3s ease}
+.accordion .btn-link {padding: 0 30px 0 45px;font-family: "Open Sans", sans-serif; font-size: 15px; color:#fff}
+.accordion > .card:first-of-type {border-bottom: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;}
+.accordion > .card:not(:first-of-type) .card-header:first-child {border-radius: 20px;}
+.accordion > .card:not(:first-of-type):not(:last-of-type) {border-bottom: 20px;border-radius: 20px;}
+.accordion > .card:last-of-type {border-top-left-radius: 20px;border-top-right-radius: 20px;}
+.btn, .btn:focus, .btn:hover {text-decoration: none;}
+.client_section .box .detail-box,
+.food_section .box,
+.offer_section .box {border-radius: 20px;}
+.header_section:before,
+.offer_section .box,
+.accordion > .card {background: #643611;}
+.food_section .box {background: linear-gradient(to bottom, #f1f2f3 25px, #643611 25px);}
+.accordion > .card .card-body {background:rgb(238 238 238 / 90%);}
+.accordion > .card .btn-link .faq_qtxt {color: rgb(255 255 255 / 70%)}
+.accordion > .card .card-body .faq_atxt {color: #653511}
+.card-header {padding: 1.15rem 1.25rem}
+.client_section .box .detail-box,
+.footer_section,
+.about_section {background-color: #A67C51;}
+.offer_section .box .detail-box h5,
+.offer_section .box .detail-box h6 {font-family: Verdana, Tahoma, sans-serif; font-size: 18px}
+.offer_section .box .detail-box h6 span {font-size: 32px}
+.offer_section .box .detail-box a {color: #643611; font-weight: bold}
+.icon_cart {display: inline-block; width:18px; height:18px; background: url("../images/icon_cart.svg") 0 0 no-repeat;font:0 auto}
+.offer_section .box .img-box {border: 3px solid #FFBF4A}
+.offer_section .box {padding: 15px}
+.navbar-brand span {font-size: 27px}
+.pb45 {padding-bottom: 45px;}
+.pt90 {padding-top: 90px;}
+.food_section .box .detail-box {position: relative;min-height: 228px; padding: 25px 20px}
+.food_section .box .img-box {overflow:hidden; height:170px; padding: 0; margin:0}
+.food_section .box .img-box img {max-height: 220px}
+.client_section .box .detail-box p.desc {overflow: hidden; height: 95px; white-space: normal; word-wrap: break-word; text-overflow: ellipsis;display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.5;}
+.footer_section .footer-info p a {font-weight: bold}
+.footer_section p {color: rgb(255 255 255 / 80%); word-break: keep-all}
+.footer_section .footer_social {margin-top: 40px; margin-bottom: 0;}
+.footer_section .footer_social a {margin:0 5px; background-color: transparent}
+.footer_section .footer_social a img {width:27px; height: 27px;}
+.about_section .img-box img {max-width: 415px;}
+.food_section .box .options {position: absolute; bottom:20px; right: 20px}
+.indicatornotclick {position:absolute; width:150px; height:40px;}
+.about_section .img-box.type1 img {max-width: 186px;}
+
+.pc_disblock {display: block}
+@media (max-width: 576px) {
+    .pc_disblock {display: none}
+}
