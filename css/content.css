@@ -5,7 +5,7 @@
 .bg-box .carousel-item {height: 100%}
 .bg-box .carousel {width:100%; height:100%;}
 .header_section {position: relative;}
-.header_section:before {content:''; position: absolute; top:0; display: block; width:100%; height: 88px; background: #222830}
+.header_section:before {content:''; position: absolute; top:0; display: block; width:100%; height: 72px; background: #222830}
 .faq_section .heading_container {padding-bottom: 45px;}
 
 .accordion > .card {border-radius: 20px;background: #222830;margin-bottom: 16px;}
@@ -43,10 +43,11 @@
 .offer_section .box .img-box {border: 3px solid #FFBF4A}
 .offer_section .box {padding: 15px}
 .navbar-brand span {font-size: 27px}
+.pb0 {padding-bottom: 0;}
 .pb45 {padding-bottom: 45px;}
 .pt90 {padding-top: 90px;}
-.food_section .box .detail-box {position: relative;min-height: 228px; padding: 25px 20px}
-.food_section .box .img-box {overflow:hidden; height:170px; padding: 0; margin:0}
+.food_section .box .detail-box {position: relative;min-height: 178px; padding: 25px 20px}
+.food_section .box .img-box {overflow:hidden; height:170px; padding: 0; margin:0;background: #A77C51;}
 .food_section .box .img-box img {max-height: 220px}
 .client_section .box .detail-box p.desc {overflow: hidden; height: 95px; white-space: normal; word-wrap: break-word; text-overflow: ellipsis;display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.5;}
 .footer_section .footer-info p a {font-weight: bold}
@@ -57,9 +58,16 @@
 .about_section .detail-box img {width:100%}
 .about_section .img-box img,
 .about_section .detail-box img {max-width: 415px;}
-.food_section .box .options {position: absolute; bottom:20px; right: 20px}
+.food_section .box .options {position: absolute; bottom:20px; width: calc(100% - 40px);}
+.food_section .box .options del {opacity: .5;}
 .indicatornotclick {position:absolute; width:150px; height:40px;}
 .about_section .img-box.type1 img {max-width: 186px;}
+.slider_section .detail-box p.h2_tit {font-size: 1.5rem;}
+.txt12 {font-size: 1.2rem}
+.header_section {padding: 10px 0}
+.navbar-brand {padding-top: 0;}
+.food_section .box .detail-box h6 {display: flex;align-items: flex-start;flex-direction: column;justify-content: center;margin-top: 0; margin-bottom: 0; font-size: 1.4rem}
+.food_section .box .detail-box h6 del {font-size: 1rem}
 
 .pc_disblock {display: block}
 @media (max-width: 576px) {
