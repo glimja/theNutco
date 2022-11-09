@@ -54,7 +54,9 @@
 .footer_section .footer_social {margin-top: 40px; margin-bottom: 0;}
 .footer_section .footer_social a {margin:0 5px; background-color: transparent}
 .footer_section .footer_social a img {width:27px; height: 27px;}
-.about_section .img-box img {max-width: 415px;}
+.about_section .detail-box img {width:100%}
+.about_section .img-box img,
+.about_section .detail-box img {max-width: 415px;}
 .food_section .box .options {position: absolute; bottom:20px; right: 20px}
 .indicatornotclick {position:absolute; width:150px; height:40px;}
 .about_section .img-box.type1 img {max-width: 186px;}
