@@ -47,8 +47,8 @@
 .pb45 {padding-bottom: 45px;}
 .pt90 {padding-top: 90px;}
 .food_section .box .detail-box {position: relative;min-height: 178px; padding: 25px 20px}
-.food_section .box .img-box {overflow:hidden; height:170px; padding: 0; margin:0;background: #A77C51;}
-.food_section .box .img-box img {max-height: 220px}
+.food_section .box .img-box {overflow:hidden; height:330px; padding: 0; margin:0;background: #A77C51;}
+.food_section .box .img-box img {max-height: 330px}
 .client_section .box .detail-box p.desc {overflow: hidden; height: 93px; white-space: normal; word-wrap: break-word; text-overflow: ellipsis;display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.5;}
 .footer_section .footer-info p a {font-weight: bold}
 .footer_section p {color: rgb(255 255 255 / 80%); word-break: keep-all}
@@ -79,4 +79,5 @@
     .navbar-collapse {margin: 0 -15px; padding-bottom: 20px; background: rgba(100, 54, 17, 0.9);}
     .slider_section .detail-box p.txt1 .txtbg1 {background: rgba(255, 255, 255, 0.8)}
     .slider_section .detail-box p.txt1.type1 {color: #643611}
+    .food_section .box .img-box {height: 310px}
 }
