@@ -103,7 +103,7 @@ h2, .footer_section h4, .footer_section .footer-logo {font-family: "Belleza";let
 .footer_section .footer-info p {color: rgb(255 255 255 / 90%); word-break: keep-all;}
 .mo_disblock2 {display: none}
 .footer_section .footer-info p{font-size: 14px}
-
+.card-header {border-bottom: 0}
 @media (max-width: 576px) {
     .pc_disblock {display: none}
     .mo_disblock2 {display: block}
