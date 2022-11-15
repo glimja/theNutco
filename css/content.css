@@ -101,12 +101,12 @@ h2, .footer_section h4, .footer_section .footer-logo {font-family: "Belleza";let
 .subpage .hero_area {background: #A97E53}
 .owl-theme .owl-nav .disabled {opacity: 0.5; cursor: default}
 .footer_section .footer-info p {color: rgb(255 255 255 / 90%); word-break: keep-all;}
-.mo_disblock {display: none}
+.mo_disblock2 {display: none}
 .footer_section .footer-info p{font-size: 14px}
 
 @media (max-width: 576px) {
     .pc_disblock {display: none}
-    .mo_disblock {display: block}
+    .mo_disblock2 {display: block}
     .navbar-collapse {margin: 0 -15px; padding-bottom: 20px; background: rgba(100, 54, 17, 0.9); z-index: 2;}
     .slider_section .detail-box p.txt1 .txtbg1 {background: rgba(255, 255, 255, 0.8)}
     .slider_section .detail-box p.txt1.type1 {color: #643611}
