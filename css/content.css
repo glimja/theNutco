@@ -97,6 +97,7 @@ h2, .footer_section h4, .footer_section .footer-logo {font-family: "Belleza";let
 .slider_section {padding: 20px 0 75px 0;}
 .hero_area {overflow: hidden}
 .subpage .hero_area {background: #A97E53}
+.owl-theme .owl-nav .disabled {opacity: 0.5; cursor: default}
 
 @media (max-width: 576px) {
     .pc_disblock {display: none}

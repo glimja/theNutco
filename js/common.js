@@ -9,10 +9,11 @@ $(document).ready(function() {
         items: 1,
         slideSpeed: 1000,
         nav: true,
-        autoplay: true, 
+        autoplay: true,
+        autoplayHoverPause : true,
         dots: true,
         loop: true,
-        responsiveRefreshRate: 1000,
+        responsiveRefreshRate: 100,
         navText: ['<svg width="100%" height="100%" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 1px;stroke: #fff;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="100%" height="100%" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 1px;stroke: #fff;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
     }).on('changed.owl.carousel', syncPosition);
   
@@ -25,8 +26,9 @@ $(document).ready(function() {
             slideSpeed: 1000,
             dots: false,
             nav: false,
+            autoplayHoverPause : true,
             slideBy: slidesPerPage,
-            responsiveRefreshRate: 1000
+            responsiveRefreshRate: 100
         }).on('changed.owl.carousel', syncPosition2);
   
     function syncPosition(el) {
