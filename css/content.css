@@ -73,17 +73,33 @@
 .food_section .box .detail-box h6 del {font-size: 1rem}
 .food_section .box .detail-box p {word-break: keep-all;}
 .pc_disblock {display: block}
-
 #customCarousel1 .carousel-item {padding-top: 70px;}
-h2, .footer_section h4, .footer_section .footer-logo {
-    font-family: "Anek Devanagari";
-    letter-spacing: -1px;
-}
+h2, .footer_section h4, .footer_section .footer-logo {font-family: "Anek Devanagari";letter-spacing: -1px;}
 .footer_section h4, .footer_section .footer-logo {font-weight:normal; text-transform: uppercase;}
+
+#sync1 .item {padding: 70px 0px 40px;}
+.owl-theme .owl-nav [class*='owl-'] {transition: all .3s ease;}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {background-color: #D6D6D6;}
+#sync1.owl-theme {position: relative;}
+#sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev {width: 22px;height: 40px;margin-top: -10px;position: absolute;top: 50%;}
+#sync1.owl-theme .owl-prev {left: 10px;}
+#sync1.owl-theme .owl-next {right: 10px;}
+.bg-box #sync2 {width: 100%;height: 100%;position: initial;}
+#sync2.owl-carousel .owl-stage-outer,#sync2.owl-carousel .owl-stage {overflow: visible; height: 100%; width:100%}
+#sync2 .bg-box img {object-fit: initial;}
+#sync2.owl-carousel.owl-drag .owl-item {height: 100%}
+#sync2.owl-carousel.owl-drag .owl-item .item {height:100%}
+.owl-carousel .owl-dots {position: absolute; left:50%; margin-left: -30px;}
+.owl-carousel button.owl-dot {background-color: #ffffff; width: 12px; height: 12px; margin-right: 5px; border-radius: 100%; opacity: 1;}
+.owl-carousel button.owl-dot.active {width: 20px;height: 20px;background-color: #ffbe33;}
+.slider_section .detail-box a {margin-top: 70px;}
+.slider_section {padding: 20px 0 75px 0;}
+
 @media (max-width: 576px) {
     .pc_disblock {display: none}
-    .navbar-collapse {margin: 0 -15px; padding-bottom: 20px; background: rgba(100, 54, 17, 0.9);}
+    .navbar-collapse {margin: 0 -15px; padding-bottom: 20px; background: rgba(100, 54, 17, 0.9); z-index: 2;}
     .slider_section .detail-box p.txt1 .txtbg1 {background: rgba(255, 255, 255, 0.8)}
     .slider_section .detail-box p.txt1.type1 {color: #643611}
     .food_section .box .img-box {height: 310px}
+    .owl-carousel .owl-dots {bottom: 0;}
 }
