@@ -49,7 +49,7 @@ body { font-family: 'NanumSquare', sans-serif }
 .pb45 {padding-bottom: 45px;}
 .pt90 {padding-top: 90px;}
 .food_section .box .detail-box {position: relative;min-height: 178px; padding: 25px 20px}
-.food_section .box .img-box {overflow:hidden; height:330px; padding: 0; margin:0;background: #A77C51;}
+.food_section .box .img-box {overflow:hidden; height:330px; padding: 0; margin:0;background: #FFF7E8;}
 .food_section .box .img-box img {max-height: 330px}
 .client_section .box .detail-box p.desc {overflow: hidden; height: 93px; white-space: normal; word-wrap: break-word; text-overflow: ellipsis;display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.5;}
 .footer_section .footer-info p a {font-weight: bold}
